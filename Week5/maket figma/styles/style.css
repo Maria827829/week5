@@ -1,0 +1,182 @@
+#mainmenu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    gap: 64px;
+
+    width: 1500px;
+    height: 61px;
+    left: 289px;
+    top: 16px;
+}
+
+a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #505A5B;
+}
+
+.menu_link {
+    color: #D36060;
+}
+
+.main_link:hover {
+    color: #505A5B
+}
+
+.main_link:active {
+    color:bisque;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.inf {
+    display: flex;
+    flex-direction: column;
+}
+#img1 {
+    width: 1519px;
+    height: 1100px;
+    left: -594px;
+    top: 100px;
+    background: url(img.png);
+}
+
+#ottica {
+    position: absolute;
+    width: 507px;
+    height: 313px;
+    left: 829px;
+    top: 254px;
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 120px;
+    line-height: 156px;
+    color: #EFF1ED;
+}
+
+#come{
+    position: absolute;
+    width: 496px;
+    height: 104.41px;
+    left: 829px;
+    top: 650px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+
+    color: #EFF1ED;
+}
+
+h1{
+    width: 292px;
+    height: 23.76px;
+    left: 100px;
+    top: 1300px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    color: #505A5B;
+}
+
+h2{
+    width: 476px;
+    height: 80px;
+    left: 730px;
+    top: 1100px;
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 73px;
+
+    color: #505A5B;
+}
+
+p{
+    width: 476px;
+    height: 300px;
+    left: 730px;
+    top: 1000px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #333333;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 95vw;
+    height: 15vh;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2 {
+    display: flex;
+    width: 1500px;
+    height: 42px;
+    left: 500px;
+    top: 1000px;
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 850;
+    font-size: 32px;
+    line-height: 42px;
+
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 50px;
+    left: 301px;
+    top: 500px;
+    background-color: #505A5B;
+}
+
+.footer {
+    display: flex;
+    background-color: #505A5B;
+    height: 15vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section {
+    display: flex;
+    height: 10vh;
+    align-items: center;
+}

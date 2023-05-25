@@ -1,0 +1,74 @@
+.header {
+    display: flex;
+    background-color: lavender;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+}
+
+.body {
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+}
+
+.aside {
+    display: flex;
+    width: 20vw;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+.article {
+    display: flex;
+    background-color: beige;
+    height: 70vh;
+    width: 90vw;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.p1 {
+    display: flex;
+    background-color:bisque;
+    height: 15vh;
+    align-items: center;
+    width: 32vw;
+    justify-content: space-around;
+}
+
+.p2 {
+    display: flex;
+    background-color:bisque;
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+}
+
+.footer {
+    display: flex;
+    background-color: lavender;
+    height: 7vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section {
+    display: flex;
+    background-color: white;
+    height: 5vh;
+    align-items: center;
+}
+
+.part {
+    display: flex;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+}
